@@ -45,7 +45,7 @@ const Navbar = () => {
               onClick={handleOpen}
             />
 
-            <div className="fixed top-16 right-5 w-60 bg-background rounded-lg shadow-2xl z-50 py-2">
+            <div className="fixed top-16 right-12 w-60 bg-background rounded-lg shadow-2xl z-50 py-2">
               <div className="px-4 py-2 border-b border-gray-200 mb-2">
                 <p className="text-amber-400 font-bold text-lg">
                   Menu Navigasi

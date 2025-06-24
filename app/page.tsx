@@ -1,7 +1,7 @@
 import About from './[sections]/About';
 import Features from './[sections]/Features';
 import Footer from './[sections]/Footer';
-import Galeries from './[sections]/Galeries';
+import Galleries from './[sections]/Galleries';
 import Hero from './[sections]/Hero';
 import Location from './[sections]/Location';
 import DotBg from './components/layouts/DotBg';
@@ -24,7 +24,7 @@ export default function Home() {
 
       <div className="relative">
         <div className="relative z-10">
-          <Galeries />
+          <Galleries />
         </div>
         <GridBg />
       </div>
