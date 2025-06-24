@@ -123,7 +123,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="block mt-6 md:mt-8 pt-6 border-t border-white/20">
           <p className="text-center text-xs md:text-sm text-gray-300">
-            © 2025 Desa Bawu. Semua hak dilindungi.
+            © 2025 KKN Desa Bawu. Semua hak dilindungi.
           </p>
         </div>
       </BaseLayout>
