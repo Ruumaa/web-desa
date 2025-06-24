@@ -66,7 +66,7 @@ const Galeries = () => {
               className={`${imgClass} md:col-span-2 md:col-start-5 md:col-end-7  h-48 md:-mt-8 `}
             />
             <Image
-              src={'/img.jpg'}
+              src={'/img6.jpg'}
               alt="img"
               width={500}
               height={500}

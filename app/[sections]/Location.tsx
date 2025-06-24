@@ -1,5 +1,8 @@
+import { GrMapLocation } from 'react-icons/gr';
 import BaseLayout from '../components/layouts/BaseLayout';
 import MapEmbed from '../components/MapEmbed';
+import RadialBgIcon from '../components/RadialBgIcon';
+import { TiLightbulb } from 'react-icons/ti';
 
 const Location = () => {
   return (
@@ -22,7 +25,12 @@ const Location = () => {
             <div className="mt-5 space-y-5 md:mt-5 md:space-y-5">
               <div className="grid grid-cols-3 md:grid-cols-3 md:gap-4">
                 <div className="flex flex-col md:items-center justify-center">
-                  <div className="size-20 md:size-30 rounded-full bg-blue-200" />
+                  <div className="relative size-20 md:size-30 rounded-full flex items-center justify-center">
+                    <RadialBgIcon />
+                    <div className="relative z-10">
+                      <GrMapLocation size={75} className="text-main" />
+                    </div>
+                  </div>
                 </div>
                 <div className="flex flex-col col-span-2">
                   <h1 className="font-bold text-accent">Lokasi</h1>
@@ -36,7 +44,12 @@ const Location = () => {
               </div>
               <div className="grid grid-cols-3 md:grid-cols-3 md:gap-4">
                 <div className="flex flex-col md:items-center justify-center ">
-                  <div className="size-20 md:size-30 rounded-full bg-blue-200" />
+                  <div className="relative flex items-center justify-center size-20 md:size-30 rounded-full">
+                    <RadialBgIcon />
+                    <div className="relative z-10">
+                      <TiLightbulb size={75} className="text-main" />
+                    </div>
+                  </div>
                 </div>
                 <div className="flex flex-col col-span-2 ">
                   <h1 className="font-bold text-accent">Potensi Desa</h1>

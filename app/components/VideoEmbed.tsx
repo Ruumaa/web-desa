@@ -4,7 +4,7 @@ const VideoEmbed = () => {
   return (
     <>
       <iframe
-        src="https://www.youtube.com/embed/bn0Kh9c4Zv4"
+        src="https://www.youtube.com/embed/Nb7veRcn6hk"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="Bawu video"
