@@ -39,7 +39,7 @@ const Hero = () => {
             <BlurReveal delay={1.2} duration={1}>
               <p className="max-w-xl text-xs mt-2 mb-4 md:my-0 md:text-sm text-background">
                 Desa yang asri dan penuh kebersamaan di lereng timur Gunung
-                Merbabu. Temukan informasi seputar pemerintahan, potensi desa,
+                Merbabu. Temukan informasi seputar lokasi desa, potensi desa,
                 dan kegiatan masyarakat kami.
               </p>
             </BlurReveal>
